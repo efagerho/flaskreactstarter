@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple Starter for React",
   "main": "",
-  "repository": "https://github.com/efagerho/reactstarter",
+  "repository": "https://github.com/efagerho/flaskreactstarter",
   "scripts": {
     "build": "webpack -p && mkdir -p server/templates && cp index.html server/templates/ && rm -r server/static && mkdir -p server/static/public && cp public/* server/static/public/",
     "build:dev": "webpack -d",
