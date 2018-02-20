@@ -13,4 +13,5 @@ npm run build
 npm run docker
 ```
 
-The last command only works if you're in the docker group (which isn't recommended).
+The last command only works if you're in the docker group (which isn't
+recommended). After running the above, you should be able to have a server that prints "Hello World" on https://localhost:5000/ (note that the certificate is self-signed).
