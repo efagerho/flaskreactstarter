@@ -5,7 +5,7 @@
   "main": "",
   "repository": "https://github.com/efagerho/flaskreactstarter",
   "scripts": {
-    "build": "webpack -p && mkdir -p server/templates && cp index.html server/templates/ && rm -r server/static && mkdir -p server/static/public && cp public/* server/static/public/",
+    "build": "webpack -p && mkdir -p server/templates && mkdir -p server/static && cp index.html server/templates/ && rm -r server/static && mkdir -p server/static/public && cp public/* server/static/public/",
     "build:dev": "webpack -d",
     "dev": "webpack-dev-server",
     "docker": "docker-compose build && docker-compose up",
